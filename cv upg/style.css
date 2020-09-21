@@ -36,10 +36,6 @@
 
 }
 
-.img-cv {
-    width: 80%;
-    height: top;
-}
 
 .img-landing:hover {
     filter: blur(0px);
@@ -62,4 +58,14 @@ div {
     display: flexbox; 
     flex-direction: column; 
     
+}
+
+.cv-pic {
+    width: 80%;
+    height: auto;
+    filter: blur(2px);
+    transition: 1s;
+}
+.cv-pic:hover {
+    filter: blur(0px);
 }
